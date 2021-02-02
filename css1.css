@@ -1,0 +1,256 @@
+/*css->cascading style sheets*/
+/*css->external(external file/head/<link rel="stylesheet"href="#")-(internal/head section/<style></style>)-(inline/attribute/the highest priority)
+/*the highest priority:inline/external/internal بالترتيب*/
+/*h1(selector){color(property):blue(value)}*/
+/*simple selector->id,class,name||note:<p class="center large"></p> center largeهنا في اتنين كلاس مش كلاس واحد اسمه*/
+/*{universal selector (*) will affect every html element on the page}*/
+/*CSS Color -> RGBA->A refers to alpha->(0.0 transparent,1.0 not transparent)*/
+/*margin:space around elements and outside of any defined borders*/
+/*padding:space around elements and inside of any defined borders*/
+/*margin property to auto to horizontally center the element within its container.*/
+/*css box model:the term "box model" is used when talking about design and layout.
+And it contains:Content ->
+ The content of the box, where text and images appear
+Padding - Clears an area around the content. The padding is transparent
+Border - A border that goes around the padding and content
+Margin - Clears an area outside the border. The margin is transparent
+*/
+/*CSS outline : An outline is a line that is drawn around elements, OUTSIDE the borders,
+ to make the element "stand out".*/
+body{
+    background-image: url("D:/Courses/my courses/my courses/nti/html2/images1/Good-Beach-Background-Free-Download.png");
+    background-repeat: no-repeat;   
+    /*background-position: right;*/
+    /*background-attachment: scroll;*/
+    /*background-size: cover;*/
+    /*background-clip:border-box/padding-box/content-box;*/
+    /*The background-clip property defines how far the background should extend within an element.*/
+    /*--short hand property->set background properties in one declaration 
+    body {
+    background: #ffffff url("img_tree.png") no-repeat right top;
+     }*/
+    /*background-color: blueviolet;*/
+}
+#m{
+    border:  1px solid rgb(103, 119, 119);
+    text-align: center;
+}
+div{
+   /* background-color: green;*/
+}
+div.first{
+    opacity: 0.1;
+}
+div.second{
+    opacity: 0.3;
+}
+div.third{
+    opacity: 0.6;
+}
+div.fourth{
+    opacity: 1;
+}
+p.dotted {border-style: dotted;}
+p.dashed {border-style: dashed;}
+p.solid {border-style: solid;}
+p.double {border-style: double;}
+p.groove {border-style: groove;}
+p.ridge {border-style: ridge;}
+p.inset {border-style: inset;}
+p.outset {border-style: outset;}
+p.none {border-style: none;}
+p.hidden {border-style: hidden;}
+p.mix {border-style: dotted dashed solid double;}
+p.one {
+    border-style: solid;
+    border-width: 5px 20px; /* 5px top and bottom, 20px on the sides */
+  }
+  p.two {
+    border-style: solid;
+    border-width: 20px 5px; /* 20px top and bottom, 5px on the sides */
+  }
+  p.three {
+    border-style: solid;
+    border-width: 25px 10px 4px 35px; /* 25px top, 10px right, 4px bottom and 35px left */
+  }
+  p.mix1{
+      border-style: dashed solid groove double;
+      border-color: aqua brown hotpink khaki;
+  }
+  p.normal {
+    border: 2px solid red;
+  }
+  
+  p.round1 {
+    border: 2px solid rgb(143, 88, 88);
+    border-radius: 5px;
+  }
+  
+  p.round2 {
+    border: 2px solid rgb(51, 248, 215);
+    border-radius: 8px;
+  }
+  
+  p.round3 {
+    border: 2px solid rgb(217, 255, 0);
+    border-radius: 12px;
+  }
+  div.mj {
+    border: 1px solid black;
+    margin: 25px 50px 75px 100px;
+    background-color: lightblue;
+  }
+  div.tv{
+      border: 1px solid blue;
+      margin: 25px 75px;
+      background-color: cadetblue;
+  }
+  /*margin property to auto to horizontally center the element within its container.*/
+  div.am{
+    width:300px;
+    /*height:200px;*/
+    /*overflow:auto;*/
+    margin: auto;
+    border: 1px solid red;
+  }
+  div.ex2{
+      border: 1px dashed gold;
+      margin: 20px 40px 60px 80px;
+  }
+  p.ex1{
+      margin: inherit;
+  }
+  div.pd1{
+      border: 1px blueviolet solid;
+      padding: 15px 30px 45px 60px;
+      background-color: cyan;
+  }
+  div.wh{
+      width: 75%;
+      height: 150px;
+      /*max-width: 75%;
+      max-height: 45px;*/
+      background-color: indigo;
+  }
+  div.bm{
+      background-color: lightcoral;
+      border: 10px solid blueviolet;
+      width: 300px;
+      padding: 150px;
+      margin: 150px;
+/*boxmode*/
+  }
+div.im{
+    background-color: lightcoral;
+      border: 10px solid blueviolet;
+      width: 150px;
+      padding: 20px;
+      margin: 15px;
+}
+p.ou1{
+    border: 2px solid black;
+    outline-style: dotted;
+    outline-color: cyan;
+}
+p.ou2{
+    border: 2px solid yellow;
+    outline-style: dotted;
+    outline-color: cyan;
+}
+p.ou3{
+    border: 2px solid deeppink;
+    outline-style: dotted;
+    outline-color: cyan;
+}
+p.ou4{
+    border: 10px solid black;
+    outline-style:outset;   /*different style*/
+    outline-color: grey;
+}
+p.ou5{
+    border: 2px solid greenyellow;
+    outline-style: solid;
+    outline-color: invert;
+    /*outline-color: invert, which performs a color inversion. 
+    This ensures that the outline is visible, regardless of color background*/
+}
+p.ou6{
+    outline: 5px solid blueviolet;
+}
+p.off{
+background-color: gray;
+    border: 2px solid blue;
+    /*padding: 10px;*/
+    margin: 10px;
+    outline: 3px solid crimson;
+    outline-offset: 10px;
+}
+div.js{
+    background-color: lightcoral;
+    border: 1px solid black;
+  padding: 10px;
+  width: 200px;
+  height: 200px;
+  text-align: justify;
+}
+img.top{
+vertical-align: top;
+}
+img.bottom{
+vertical-align: bottom;
+}
+img.middle{
+vertical-align: middle;
+}
+p.uppercase {
+    text-transform: uppercase;
+  }
+  
+  p.lowercase {
+    text-transform: lowercase;
+  }
+  
+  p.capitalize {
+    text-transform: capitalize;
+  }
+  p.in{
+      text-indent: 50%;
+      /*text-indent: 40px;*/
+  }
+  h1.ls1{
+      letter-spacing: 5px;
+  }
+  h1.ls2{
+    letter-spacing: -5px;
+}
+p.small {
+    line-height: 0.7;
+  }
+  
+  p.big {
+    line-height: 1.8;
+  }
+  h1.oo{
+    word-spacing: 10px;
+  }
+  
+  h2.hh{
+    word-spacing: -15px;
+  }
+  p.ws{
+      white-space: nowrap;
+      /*The white-space property specifies how white-space inside an element is handled.*/
+  }
+  h1.td{
+      color: green;
+      text-shadow: 2px 2px 5px red;
+  }
+  p.normal1 {
+    font-variant: normal;
+  }
+  
+  p.small {
+    font-variant: small-caps;
+  }
+  /*for google font put rel=stylesheet href=#and put font-family in body+++multiple fonts->
+  font1|font2|font3*/
