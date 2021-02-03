@@ -1,0 +1,205 @@
+h1.i1{
+    background-color: springgreen;
+    text-decoration: underline;
+}
+table.t1 , table.t1 th,table.t1 td{
+    border: 1px solid black;
+}
+table.t2 , table.t2 th,table.t2 td{
+    border: 1px solid rgb(17, 199, 154);
+    text-align: center;
+}
+table.t2{
+    width: 50%;
+}
+table.t3 , table.t3 th,table.t3 td{
+    border: 1px solid rgb(228, 15, 51);
+    text-align: center;
+}
+table.t3{
+    border-collapse: collapse;
+    width: 50%;
+}
+table.t4{
+    border: 1px dashed rgb(9, 0, 63);
+}
+table.t5 , table.t5 th,table.t5 td{
+    border: 1px solid rgb(228, 15, 51);
+    text-align: center;
+    width: 50%;
+vertical-align: bottom;
+height: 45px;
+}
+table.t5 th{
+    height: 50px;
+    
+}
+table.t5 {
+    border-collapse: collapse;
+}
+table.t6 ,table.t6 th,table.t6 td{
+    border: 2px solid black;
+    text-align: center;
+    width: 75%;
+    height: 20px;
+   /* padding: 15px;*/
+}
+table.t6{
+    border-collapse: collapse;
+}
+table.t6 th,table.t6 td{
+    padding: 25px;
+}
+table.t7 ,table.t7 th,table.t7 td{
+    border-bottom: 2px solid black;
+    text-align: center;
+    width: 75%;
+    height: 40px;
+    padding: 5px;
+}
+table.t7{
+    border-collapse: collapse;
+}
+table.t7 tr:hover{
+    background-color: crimson;
+}
+table.t8 {
+    border-collapse: collapse;
+    width: 100%;
+}
+table.t8 th,table.t8 td{
+    text-align: center;
+}
+table.t8 th{
+    background-color: rgb(255, 30, 0);
+    color: darkseagreen;
+}
+table.t8 tr:nth-child(odd){
+    background-color: darkolivegreen;
+}
+ul.li1 li{
+    display: inline;
+}
+span{
+    display: block;
+}
+.aa{
+    display: block;
+}
+.hidden{
+    display: none;
+}
+.hidden1{
+    visibility: hidden;
+}
+div.ex1 {
+    width: 500px;
+    margin: auto;
+    border: 3px solid #73AD21;
+  }
+  
+  div.ex2 {
+    max-width: 500px;
+    margin: auto;
+    border: 3px solid #73AD21;
+  }
+  div.static {
+    position: static;
+    border: 3px solid black;
+  }
+  div.relative1 {
+    position: relative;
+    left: 30px;
+    border: 3px solid black;
+  }
+  div.fixed {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    border: 3px solid #73AD21;
+  }
+  div.relative {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid #73AD21;
+  } 
+  
+  div.absolute {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    width: 200px;
+    height: 50px;
+    border: 3px solid #73AD21;
+  }
+  div.sticky {
+    /*position: sticky;*/
+    position: sticky;
+    top: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: cyan;
+    border: 2px solid black;
+  }
+  div.abc {
+    position: relative;
+    width: 400px;
+    height: 200px;
+    border: 3px solid red;
+  }
+  
+  div.bbc {
+    position: absolute;
+    top: 0;
+    border: 3px solid blue;
+  } 
+  
+  div.ccb {
+    position: absolute;
+    top: 50px;
+    border: 3px solid green;
+  } 
+  .img44{
+      position: absolute;
+    /*vertical-align: middle;*/
+      z-index: -1;
+  }
+  #overflowTest {
+    background: cyan;
+    color: white;
+    padding: 5px;
+    width: 50%;
+    height: 100px;
+    overflow: scroll;
+    border: 1px solid #ccc;
+  }
+  div.gg{
+    background-color: #eee;
+    width: 200px;
+    height: 50px;
+    border: 1px dotted black;
+    overflow: visible;
+  }
+  div.ii {
+    background-color: #eee;
+    width: 200px;
+    height: 50px;
+    border: 1px dotted black;
+    overflow: hidden;
+  }
+  div.mm{
+    background-color: #eee;
+    width: 200px;
+    height: 100px;
+    border: 1px dotted black;
+    overflow: scroll;
+  }
+  div.kk{
+    background-color: #eee;
+    width: 200px;
+    height: 50px;
+    border: 1px dotted black;
+    overflow: auto;
+  }
