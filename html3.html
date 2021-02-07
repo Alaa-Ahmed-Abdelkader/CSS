@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+<html lang="en">
+    <html>
+    <head>
+        <meta charset="UTF-8>">  
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--to make your web page look good on all devices-->
+        <!--<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">-->
+        <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="shortcut icon" href="D:/Courses/my courses/my courses/nti/html2/images1/pexels-photo-257360.jpeg">
+        <title>my css3</title>
+  <link rel="stylesheet" href="css3.css">
+  
+       
+    </head>
+        <body>
+            <h2>Descendant Selector</h2>
+            <p>The descendant selector matches all elements that are descendants of a specified element.</p>
+            
+            <div class="Descendant">
+              <p>Paragraph 1 in the div.</p>
+              <p>Paragraph 2 in the div.</p>
+              <section><p>Paragraph 3 in the div.</p></section>
+            </div>
+            
+            <p>Paragraph 4. Not in a div.</p>
+            <p>Paragraph 5. Not in a div.</p>
+            <hr>
+            <h2>Child Selector</h2>
+            <p>The child selector (>) selects all elements that are the children of a specified element.</p>
+            
+            <div class="child">
+              <p>Paragraph 1 in the div.</p>
+              <p>Paragraph 2 in the div.</p>
+              <section><p>Paragraph 3 in the div.</p></section> <!-- not Child but Descendant -->
+              <p>Paragraph 4 in the div.</p>
+            </div>
+            <hr>
+            <h2>Adjacent Sibling Selector</h2>
+
+<p>The + selector is used to select an element that is directly after another specific element.</p>
+<p>The following example selects the first p element that are placed immediately after div elements:</p>
+            <div class="adjacentsibling">
+                <p>Paragraph 1 in the div.</p>
+                <p>Paragraph 2 in the div.</p>
+              </div>
+              
+              <p>Paragraph 3. After a div.</p>
+              <p>Paragraph 4. After a div.</p>
+              
+              <div class="adjacentsibling"> <!--اول ايليمنت بس بعد الديف-->
+                <p>Paragraph 5 in the div.</p>
+                <p>Paragraph 6 in the div.</p>
+              </div>
+              
+              <p>Paragraph 7. After a div.</p>
+              <p>Paragraph 8. After a div.</p>
+              <hr>
+              <h2>General Sibling Selector</h2>
+              <p>The general sibling selector (~) selects all elements that are siblings of a specified element.</p>
+
+              <p>Paragraph 1.</p> 
+
+              <div class="generalsibling"> <!--كل الايليمنتس بعد الديف-->
+              <p>Paragraph 2.</p>
+              </div>
+
+             <p>Paragraph 3.</p>
+             <code>Some code.</code>
+             <p>Paragraph 4.</p>
+             <p>Paragraph 4.</p>
+             <p>Paragraph 4.</p>
+             <p>Paragraph 1.</p>
+             <p>Paragraph 1.</p>
+             <hr>
+             <h2>Pseudo-classes and CSS Classes</h2>
+<p>When you hover over the first link below, it will change color:</p>
+
+<a class="highlight" href="css_syntax.asp">CSS Syntax</a>
+<br>
+<a class="highlight" href="default.asp">CSS Tutorial</a>
+<hr>
+<div class="hi">Hover over me to show the p element
+    <p>Tada! Here I am!</p></div>
+    <hr>
+    <p>I am a <i>strong</i> person. I am a <i>strong</i> person.</p>
+<p>I am a <i>strong</i> person. I am a <i>strong</i> person.</p>
+    <hr>
+    <div class="nn">
+        <p>This is some text.</p>
+<p>This is some text.</p>
+    </div>
+    <hr>
+    <p>Some text <q lang="no">A quote in a paragraph</q> Some text.</p>
+<p>In this example, :lang defines the quotation marks for q elements with lang="no":</p>
+<hr>
+<p class="po" style="width: 250px;">You can use the ::first-line pseudo-element to add a special effect to the first line of a text.
+     Some more text. And even more, and more, and more, and more,and more, and more,
+      and more, and more, and more, and more, and more, and more.</p>
+      <hr>
+      <p class="kk">You can use the ::first-letter pseudo-element to add a special effect to the first character of a text!</p>
+      <hr>
+      <p class="fg" style="width: 250px;">You can combine the ::first-letter and ::first-line pseudo-elements to add a special effect to the first letter and the first line of a text!</p>
+    <hr>    
+    <h1 class="poo">This is a heading</h1>
+<p>The ::before pseudo-element inserts content before the content of an element.</p>
+
+<h1 class="poo">This is a heading</h1>
+<hr>
+<h1>Select some text on this page:</h1>
+
+<p class="uy">This is a paragraph.</p>
+<p class="uy">This is some text in a div element.</p>
+<hr>
+<h2>Vertical Navigation Bar</h2>
+
+<ul class="ui">
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+<hr>
+<h2>Vertical Navigation Bar</h2>
+<p>In this example, we create an "active" class with a green background color and a white text. The class is added to the "Home" link.</p>
+
+<ul class="kj">
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+<hr>
+<h2>Vertical Navigation Bar</h2>
+<p>In this example, we center the navigation links and add a border to the navigation bar.</p>
+
+<ul class="mm">
+  <li><a class="active1" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a href="#about">About</a></li>
+</ul>
+<hr>
+<div class="navc" style="width: 230px;">
+  <a href="#Home">Home</a>|
+  <a href="#Home">Home</a>|
+  <a href="#Home">Home</a>|
+  <a href="#Home">Home</a>|
+  <a href="#Home">Home</a>
+</div>
+<hr>
+<div class="navx">
+  <a  href="#Home">Home</a>|
+  <a href="#Home">Home</a>|
+  <a href="#Home">Home</a>|
+  <a href="#Home">Home</a>|
+  <a href="#Home">Home</a>
+  <a class="active33" style="float: right;" href="#Home">Home</a>
+</div>
+<br>
+<hr>
+<ul class="nava">
+  <li><a class="active78" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li ><a href="#about">About</a></li>
+</ul>
+<br><br><br>
+<h2>Hoverable Dropdown</h2>
+<p>Move the mouse over the text below to open the dropdown content.</p>
+
+<div class="dropdown">
+  <span>Mouse over me</span>
+  <div class="dropdown-content">
+  <p>Hello World!</p>
+  <p>Hello World!</p>
+  <p>Hello World!</p>
+  <p>Hello World!</p>
+  </div>
+</div>
+<hr>
+<div class="dropdown1">
+  <button class="dropbtn1">Dropdown</button>
+  <div class="dropdown-content1">
+  <a href="#">Link 1</a>
+  <a href="#">Link 2</a>
+  <a href="#">Link 3</a>
+  </div>
+</div>
+<p><strong>Note:</strong> We use href="#" for test links. In a real web site this would be URLs.</p>
+<hr>
+<div class="dropdown2" style="float:left;">
+  <button class="dropbtn2">Left</button>
+  <div class="dropdown-content2" style="left:0;">
+  <a href="#">Link 1</a>
+  <a href="#">Link 2</a>
+  <a href="#">Link 3</a>
+  </div>
+</div>
+
+<div class="dropdown2" style="float:right;">
+  <button class="dropbtn2">Right</button>
+  <div class="dropdown-content2">
+  <a href="#">Link 1</a>
+  <a href="#">Link 2</a>
+  <a href="#">Link 3</a>
+  </div>
+</div>
+<br><br><br><br><br>
+<ul class="dp">
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li class="dropdown3">
+    <a  class="dropbtn3">Dropdown</a>
+    <div class="dropdown-content3">
+      <a href="#">Link 1</a>
+      <a href="#">Link 2</a>
+      <a href="#">Link 3</a>
+    </div>
+  </li>
+</ul>
+<br><br>
+<h3>Dropdown Menu inside a Navigation Bar</h3>
+<p>Hover over the "Dropdown" link to see the dropdown menu.</p>
+<hr>
+<h2>CSS [attribute] Selector</h2>
+<p>The links with a target attribute gets a yellow background:</p>
+
+<a href="https://www.w3schools.com">w3schools.com</a>
+<a class="tt" href="http://www.disney.com" target="_blank">disney.com</a>
+<a class="tt" href="http://www.wikipedia.org" target="_top">wikipedia.org</a>
+<hr>
+    </body>
+    </html>

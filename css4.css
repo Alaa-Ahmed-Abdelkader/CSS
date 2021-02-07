@@ -1,0 +1,535 @@
+#rcorners1 {
+    border-radius: 25px 25px 50px 80px;
+    background: #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;  
+  }
+  
+  #rcorners2 {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;  
+  }
+  
+  #rcorners3 {
+    border-radius: 25px;
+    background-image: url("D:/Courses/my courses/my courses/nti/html2/images1/Good-Beach-Background-Free-Download.png");
+    background-repeat: no-repeat;    
+    background-repeat: repeat;
+    padding: 20px; 
+    width: 200px;
+    height: 150px;  
+  }
+  #example1 {
+    background-image: url("D:/Courses/my courses/my courses/nti/html2/images1/Good-Beach-Background-Free-Download.png"), url("D:/Courses/my courses/my courses/nti/html2/images1/Good-Beach-Background-Free-Download.png");
+    background-position: right bottom, left top;
+    background-repeat: no-repeat, repeat;
+    padding: 15px;
+  }
+  #grad1 {
+    height: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(red, yellow);
+  }
+  #grad2 {
+    height: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(to right, red , yellow);
+  }
+  #grad3 {
+    height: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(red, yellow, green);
+  }
+  
+  #grad4 {
+    height: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(red, orange, yellow, green, blue, indigo, violet);
+  }
+  
+  #grad5 {
+    height: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: linear-gradient(red 10%, green 85%, blue 90%);
+  }
+  #grad6 {
+    height: 150px;
+    width: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: radial-gradient(red, yellow, green);
+  }
+  #grad7 {
+    height: 150px;
+    width: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: radial-gradient(red, yellow, green);
+  }
+  
+  #grad8 {
+    height: 150px;
+    width: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: radial-gradient(circle, red, yellow, green);
+  }
+  #grad9 {
+    height: 150px;
+    width: 150px;
+    background-color: cyan; /* For browsers that do not support gradients */
+    background-image: radial-gradient(closest-side at 60% 55%, red, yellow, black);
+  }
+  
+  #grad10 {
+    height: 150px;
+    width: 150px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: radial-gradient(farthest-side at 60% 55%, red, yellow, black);
+  }
+  
+  #grad11 {
+    height: 150px;
+    width: 150px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: radial-gradient(closest-corner at 60% 55%, red, yellow, black);
+  }
+  
+  #grad12 {
+    height: 150px;
+    width: 150px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: radial-gradient(farthest-corner at 60% 55%, red, yellow, black);
+  }
+  #grad13 {
+    height: 150px;
+    width: 200px;
+    background-color: red; /* For browsers that do not support gradients */
+    background-image: repeating-radial-gradient(red, yellow 10%, green 15%);
+  }
+  h1.shadow{
+      color: rgb(69, 190, 190);
+      text-shadow: 2px 2px 4px greenyellow;
+  }
+  div.shadow1 {
+    width: 300px;
+    height: 100px;
+    padding: 15px;
+    background-color: yellow;
+    box-shadow: 10px 10px 5px grey;
+  }
+  p.test1 {
+    white-space: nowrap; 
+    width: 200px; 
+    border: 1px solid #000000;
+    overflow: hidden;
+    text-overflow: clip;
+  }
+  
+  p.test2 {
+    white-space: nowrap; 
+    width: 200px; 
+    border: 1px solid #000000;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  p.test3 {
+    writing-mode: horizontal-tb; 
+  }
+  
+  span.test4 {
+    writing-mode: vertical-rl; 
+  }
+  
+  p.test4 {
+    writing-mode: vertical-rl; 
+  }
+  div {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+  }
+  div#myDiv {
+    /*-ms-transform: rotate(20deg); /* IE 9 */
+    transform: rotate(20deg); /* Standard syntax */
+  }
+  div.scale {
+    margin: 150px;
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    -ms-transform: scale(2,3); /* IE 9 */
+    transform: scale(2,3); /* Standard syntax */
+  }
+  div.scalex {
+    margin: 150px;
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    -ms-transform: scaleX(0.5); /* IE 9 */
+    transform: scaleX(0.5); /* Standard syntax */
+  }
+  div.scaley {
+    margin: 150px;
+    width: 200px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+    -ms-transform: scaleY(3); /* IE 9 */
+    transform: scaleY(3); /* Standard syntax */
+  }
+  div.noskwe{
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+  }
+  
+  div#myDivskwe {
+    -ms-transform: skewX(20deg); /* IE 9 */
+    transform: skewX(20deg); /* Standard syntax */
+  }
+  div.skewna {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+  }
+  
+  div#myDivskewy {
+    -ms-transform: skewY(20deg); /* IE 9 */
+    transform: skewY(20deg); /* Standard syntax */
+  }
+  div.nomatrix {
+    width: 300px;
+    height: 100px;
+    background-color: yellow;
+    border: 1px solid black;
+  }
+  div#myDiv1mat1 {
+    -ms-transform: matrix(1, -0.3, 0, 1, 0, 0); /* IE 9 */
+    transform: matrix(1, -0.3, 0, 1, 0, 0); /* Standard syntax */
+  }
+  div#myDiv2mat2 {
+    -ms-transform: matrix(1, 0, 0.5, 1, 150, 0); /* IE 9 */
+    transform: matrix(1, 0, 0.5, 1, 150, 0); /* Standard syntax */
+  }
+  div.tr1 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s;
+  }
+  div.tr1:hover {
+    width: 300px;
+  }
+  div.tr2 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s, height 4s;
+  }
+  
+  div.tr2:hover {
+    width: 300px;
+    height: 300px;
+  }
+  #divea1,#divea2,#divea3,#divea4,#divea5 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s;
+  }
+  #divea1 {transition-timing-function: linear;}
+  #divea2 {transition-timing-function: ease;}
+  #divea3 {transition-timing-function: ease-in;}
+  #divea4 {transition-timing-function: ease-out;}
+  #divea5 {transition-timing-function: ease-in-out;} 
+  #divea1:hover {
+    width: 300px;
+}
+#divea1:hover {
+    width: 300px;
+}
+#divea2:hover {
+    width: 300px;
+}
+#divea3:hover {
+    width: 300px;
+}   #divea4:hover {
+    width: 300px;
+}
+#divea5:hover {
+    width: 300px;
+}
+div.ttrr {
+    width: 100px;
+    height: 100px;
+    background: cyan;
+    transition: width 2s, height 2s, transform 2s;
+  }
+  div.ttrr:hover {
+    width: 300px;
+    height: 300px;
+    transform: rotate(180deg);
+  }
+  div.nsh {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+  }
+  div.nsh:hover {
+    width: 300px;
+  }
+  div.shrt {
+    width: 100px;
+    height: 100px;
+    background: red;
+    transition: width 2s linear 1s;
+  }
+  div.shrt:hover {
+    width: 300px;
+  }
+  div.kr1 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example1;
+    animation-duration: 4s;
+  }
+  @keyframes example1 {
+    from {background-color: red;}
+    to {background-color: yellow;}
+  }
+  div.kr2 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation-name: example2;
+    animation-duration: 4s;
+  }
+  @keyframes example2 {
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+  }
+  div.kr3 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example3;
+    animation-duration: 4s;
+    /*animation-delay: 2s;*//*delay to start*/
+  }
+  @keyframes example3 {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+  div.kr4 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example4;
+    animation-duration: 4s;
+    animation-delay: -2s;
+      animation-iteration-count: 3;
+  }
+  @keyframes example4 {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+  div.kr5 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example5;
+    animation-duration: 4s;
+    /*animation-iteration-count: 3;*/
+    animation-iteration-count: infinite;
+
+  }
+  @keyframes example5 {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+  div.kr6 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example6;
+    animation-duration: 4s;
+    animation-direction: reverse;
+  }
+  @keyframes example6 {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+  div.kr7 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example7;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+    animation-direction: alternate;  
+  }
+  @keyframes example7 {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+  div.kr8 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example8;
+    animation-duration: 4s;
+    animation-iteration-count: 2;
+    animation-direction: alternate-reverse;  
+  }
+  @keyframes example8 {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}}
+ div.dd{
+  width: 100px;
+  height: 50px;
+  background-color: red;
+  font-weight: bold;
+  position: relative;
+  animation: mymove 5s infinite;
+}
+#div1v {animation-timing-function: linear;}
+#div2v {animation-timing-function: ease;}
+#div3v {animation-timing-function: ease-in;}
+#div4v {animation-timing-function: ease-out;}
+#div5v {animation-timing-function: ease-in-out;}
+@keyframes mymove {
+  from {left: 0px;}
+  to {left: 300px;}
+}
+div.kr9 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation-name: example9;
+    animation-duration: 3s;  
+    animation-fill-mode: forwards;
+    /*animation-fill-mode: backwards;*/  /*will back to origin position*/
+  }
+  @keyframes example9 {
+    from {top: 0px;}
+    to {top: 200px; background-color: blue;}
+  }
+  div.kr10 {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation-name: example10;
+    animation-duration: 3s;  
+    animation-delay: 2s;
+    animation-fill-mode: both;
+  }
+  @keyframes example10 {
+    from {top: 0px; background-color: yellow;}
+    to {top: 200px; background-color: blue;}
+  }
+  div.kr11 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation-name: example11;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    animation-delay: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }
+  @keyframes example11 {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+  div.kr12 {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    position: relative;
+    animation: example12 5s linear 2s infinite alternate;  /*shorthand property*/
+  }
+  @keyframes example12 {
+    0%   {background-color:red; left:0px; top:0px;}
+    25%  {background-color:yellow; left:200px; top:0px;}
+    50%  {background-color:blue; left:200px; top:200px;}
+    75%  {background-color:green; left:0px; top:200px;}
+    100% {background-color:red; left:0px; top:0px;}
+  }
+  .containera{
+    position: relative;
+    width: 50%;
+  }
+  .imagea{
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+  .overlaya{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  .containera:hover .overlaya{
+    opacity: 1;
+  }
+  .texta{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   -ms-transform: translate(-50%, -50%);
+  }

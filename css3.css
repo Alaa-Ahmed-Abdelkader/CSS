@@ -1,0 +1,336 @@
+/*There are four different combinators in CSS:
+descendant selector (space):The descendant selector matches all elements that are descendants of a specified element.
+child selector (>):The child selector selects all elements that are the children of a specified element.
+adjacent sibling selector (+):The adjacent sibling selector is used to select an element that is
+ directly after another specific element.Sibling elements must have the same parent element,
+  and "adjacent" means "immediately following".
+general sibling selector (~):The general sibling selector selects all elements that are siblings
+ of a specified element.
+*/
+div.Descendant  p {
+    background-color: yellow;
+  }
+  div.child > p{
+    background-color: yellow;
+  }
+  div.adjacentsibling + p{
+      background-color: crimson;
+  }
+  /*div.generalsibling ~ p{
+      background-color: cyan;
+  }*/
+  a.highlight:hover {
+      background-color: darkgreen;
+  }
+  div.hi p{
+      display: none;
+      background-color: darkorchid;
+      padding: 15px;
+  }
+  div.hi:hover p{
+      display: block;
+  }
+  p i:first-child{
+      color: indianred;
+  }
+  div.nn p:first-child{
+    color: indianred;
+  }
+  q:lang(no) {
+    quotes: "~" "~";
+  }
+  p.po::first-line {
+    color: #ff0000;
+    font-variant: small-caps;
+  }
+  p.kk::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+  }
+  p.fg::first-letter {
+    color: #ff0000;
+    font-size: xx-large;
+  }
+  p.fg::first-line {
+    color: #0000ff;
+    font-variant: small-caps;
+  }
+  h1.poo::before{
+      content: url("D:/Courses/my courses/my courses/nti/html2/images1/Good-Beach-Background-Free-Download.png");
+  }
+  .uy::selection {
+    color: red;
+    background: yellow;
+  }
+  ul.ui{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 100px;
+    background-color: #f1f1f1;
+  }
+  ul.ui li a{
+    display: block;
+    color: #000;
+    padding: 8px 10px;
+    text-decoration: none;
+  }
+  ul.ui li:hover{
+    background-color: #555;
+    color: white;  }
+ ul.kj{
+   list-style-type: none;
+   padding: 0px;
+   margin: 0px;
+   width: 150px;
+   background-color: cyan;
+ } 
+ ul.kj li a{
+   display: block;
+   color: ghostwhite;
+   padding: 10px 15px;
+   text-decoration: none;
+ }
+ul.kj li a.active{
+  background-color: midnightblue;
+  color: aliceblue;
+}
+ul.kj li a:hover:not(.active){
+  background-color: rgb(0, 4, 255);
+  color: #f1f1f1;
+}
+ul.mm{
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+  width: 150px;
+  background-color: antiquewhite;
+  border: 1px solid navy;
+}
+ul.mm li a{
+  display: block;
+  color: rgb(4, 17, 29);
+  padding: 10px 15px;
+  text-decoration: none;
+}
+ul.mm li a.active1{
+background-color: orange;
+color: rgb(19, 18, 7);
+}
+ul.mm li a:hover:not(.active1){
+  background-color: orange;
+  color: #f1f1f1;
+}
+div.navc{
+  background-color: cyan;
+  border: 1px solid black;
+  padding: 15px;
+}
+div.navc a{
+  height: 25px;
+display: inline-block;
+text-align: center;
+}
+div.navc a:hover{
+  background-color: rgb(27, 13, 2);
+  color: #f1f1f1;
+}
+.navx{
+  padding: 0px;
+  margin: 0px;
+  background-color:#555;
+}
+.navx a{
+  display: inline-block;
+  padding: 14px 16px;
+  color: #000;
+  text-decoration: none;
+}
+.navx a:hover:not(.active33){
+  background-color: rgb(184, 80, 80);
+  color: beige;
+}
+a.active33{
+  background-color: #000;
+  color: beige;
+}
+ul.nava {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  /*overflow: hidden;*/
+  /*background-color: cyan;*/
+}
+
+ul.nava li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+ul.nava li:last-child {
+  border-right: none;
+}
+
+ul.nava li a {
+  display: block;
+  color: green;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+    background-color: cyan;
+
+}
+
+ul.nava li a:hover:not(.active) {
+  background-color: orange;
+}
+ul.nava .active78{
+  background-color: tomato;
+}
+.dropdown {
+  position: relative;
+  display: inline-block;
+    border:1px solid black;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+  border:1px solid black;
+}
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropbtn1 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown1{
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content1{
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content1 a{
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content1 a:hover{background-color: #741717}
+.dropdown1:hover .dropdown-content1{
+  display: block;
+}
+.dropdown1:hover .dropbtn1 {
+  background-color: #7270d4;
+}
+.dropbtn2 {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+}
+
+.dropdown2 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  right: 0;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content2 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content2 a:hover {background-color: #f1f1f1;}
+
+.dropdown2:hover .dropdown-content2 {
+  display: block;
+}
+
+.dropdown2:hover .dropbtn2 {
+  background-color: #3e8e41;
+}
+ul.dp {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.dp li {
+  float: left;
+}
+
+ul.dp li a, a.dropbtn3 {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.dp li a:hover,ul.dp li.dropdown3:hover a.dropbtn3{
+  background-color: red;
+}
+
+ul.dp li.dropdown3 {
+  display: inline-block;
+}
+
+div.dropdown-content3 {
+  display: none;
+  position: absolute;
+  background-color: #bb5656;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(60, 228, 205, 0.2);
+  z-index: 1;
+}
+
+div.dropdown-content3 a {
+  color: rgb(82, 204, 82);
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+div.dropdown-content3 a:hover {background-color: #3f0d00;}
+
+ul.dp li.dropdown3:hover div.dropdown-content3 {
+  display: block;
+}
+ a.tt[target] {
+  background-color: yellow;
+}
+
+

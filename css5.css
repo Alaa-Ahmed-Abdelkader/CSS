@@ -1,0 +1,259 @@
+/*CSS Flexbox Layout Module
+Before the Flexbox Layout module, there were four layout modes:
+
+Block, for sections in a webpage
+Inline, for text
+Table, for two-dimensional table data
+Positioned, for explicit position of an element*/
+.container1 {
+    position: relative;
+    width: 50%;
+  }
+  .image1 {
+    display: block;
+    width: 50%;
+    height: 50%;
+  }
+  .overlay1 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 50%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }
+  .container1:hover .overlay1{
+    opacity: 1;
+  }
+  .text1 {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+  }
+  .container2 {
+    position: relative;
+    width: 50%;
+  }
+  
+  .image2 {
+    opacity: 1;
+    display: block;
+    width: 100%;
+    height: auto;
+    transition: .5s ease;
+    backface-visibility: hidden;
+  }
+  
+  .middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%)
+  }
+  
+  .container2:hover .image2 {
+    opacity: 0.3;
+  }
+  
+  .container2:hover .middle {
+    opacity: 1;
+  }
+  
+  .text2 {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+  .btn-group .button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    float: left;
+  }
+  
+  .btn-group .button:hover {
+    background-color: #3e8e41;
+  }
+  .pagination {
+    display: inline-block;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+  }
+  
+  .pagination a.active {
+    background-color: #4CAF50;
+    color: white;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: cyan;}
+  .pagination1 {
+    display: inline-block;
+  }
+  
+  .pagination1 a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+  }
+  
+  .pagination1 a.active1 {
+    background-color: #4CAF50;
+    color: white;
+    border: 1px solid #4CAF50;
+  }
+  
+  .pagination a:hover:not(.active1) {background-color: #ddd;}
+  
+  .flex-container1 {
+    display: flex;
+    background-color: DodgerBlue;
+  }
+  .flex-container1 > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 30px;
+  }
+  .flex-container2 {
+    display: flex;
+    flex-direction: column;
+    /*flex-direction: row;*/  /*-> will take row shape*/
+    background-color: DodgerBlue;
+  }
+  .flex-container2 > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  .flex-container3 {
+    display: flex;
+    flex-direction: column-reverse;
+    /*flex-direction: column-reverse;*/  /*-> will take column shape*/
+    background-color: DodgerBlue;
+  }
+  .flex-container3 > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  .flex-container4 {
+    display: flex;
+    flex-wrap: wrap;
+    /*flex-wrap: wrap-reverse;*/  /*->from the last to first*/
+    background-color: DodgerBlue;
+  }
+  .flex-container4 > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  .flex-container5 {
+    display: flex;
+    flex-wrap: nowwrap;
+    background-color: DodgerBlue;
+  }
+  .flex-container5 > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  .flex-container6 {
+    display: flex;
+    justify-content: center;
+    background-color: DodgerBlue;
+  }
+  .flex-container6 > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  .flex-container6 {
+    display: flex;
+    justify-content: flex-start;
+    /*  justify-content: flex-end;*/  /*to start from the end*/
+    /*  justify-content: space-around;*/
+  /*"justify-content: space-around;" displays the flex items with space before, between, and after the lines*/
+/*The "justify-content: space-between;" displays the flex items with space between the lines*/
+  background-color: DodgerBlue;
+  }
+  
+  .flex-container6 > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  .flex-container7 {
+    display: flex;
+    height: 200px;
+    align-items: flex-end;
+    /*The "align-items: flex-start;" aligns the flex items at the top of the container:*/
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container7 > div {
+    background-color: #f1f1f1;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  .flex-container8 {
+    display: flex;
+    align-items: stretch;
+    background-color: #f1f1f1;
+  }
+  .flex-container8 > div {
+    background-color: DodgerBlue;
+    color: white;
+    width: 100px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
